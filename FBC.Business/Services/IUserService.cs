@@ -9,6 +9,6 @@ namespace FBC.Business.Services
     {
         Task<bool> AuthenticateUser(string email, string password);
         string TestAnonymousToken(string token);
-
+        Task<bool> TestSecret(string secret);
     }
 }
